@@ -100,3 +100,14 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+@media (max-width: 576px) {
+  .special-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+}
